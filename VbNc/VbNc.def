@@ -1,0 +1,118 @@
+; VbNc.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VbNc"
+DESCRIPTION  'NetCDF For Excel Windows Dynamic Link Library'
+
+EXPORTS
+	nc__create<br/>
+	nc_create<br />
+	nc__open<br />
+	nc_open<br />
+	nc_set_fill<br />
+	nc_redef<br />
+	nc__enddef<br />
+	nc_enddef<br />
+	nc_sync<br />
+	nc_abort<br />
+	nc_close
+	nc_inq
+	nc_inq_ndims
+	nc_inq_nvars
+	nc_inq_natts
+	nc_inq_unlimdim
+	nc_set_default_format
+	nc_inq_format
+	nc_def_dim
+	nc_inq_dimid
+	nc_inq_dim
+	nc_inq_dimname
+	nc_inq_dimlen
+	nc_rename_dim
+	nc_inq_att
+	nc_inq_attid
+	nc_inq_atttype
+	nc_inq_attlen
+	nc_inq_attname
+	nc_copy_att
+	nc_rename_att
+	nc_del_att
+	nc_put_att
+	nc_get_att
+	nc_put_att_text
+	nc_get_att_text
+	nc_put_att_uchar
+	nc_get_att_uchar
+	nc_put_att_schar
+	nc_get_att_schar
+	nc_put_att_short
+	nc_get_att_short
+	nc_put_att_int
+	nc_get_att_int
+	nc_put_att_long
+	nc_get_att_long
+	nc_put_att_float
+	nc_get_att_float
+	nc_put_att_double
+	nc_get_att_double
+	nc_def_var
+	nc_inq_var
+	nc_inq_varid
+	nc_inq_varname
+	nc_inq_vartype
+	nc_inq_varndims
+	nc_inq_vardimid
+	nc_inq_varnatts
+	nc_rename_var
+	nc_copy_var
+	nc_put_var_text
+	nc_get_var_text
+	nc_put_var_uchar
+	nc_get_var_uchar
+	nc_put_var_schar
+	nc_get_var_schar
+	nc_put_var_short
+	nc_get_var_short
+	nc_put_var_int
+	nc_get_var_int
+	nc_put_var_long
+	nc_get_var_long
+	nc_put_var_float
+	nc_get_var_float
+	nc_put_var_double
+	nc_get_var_double
+	nc_put_var1
+	nc_get_var1
+	nc_put_var1_text
+	nc_get_var1_text
+	nc_put_var1_uchar
+	nc_get_var1_uchar
+	nc_put_var1_schar
+	nc_get_var1_schar
+	nc_put_var1_short
+	nc_get_var1_short
+	nc_put_var1_int
+	nc_get_var1_int
+	nc_put_var1_long
+	nc_get_var1_long
+	nc_put_var1_float
+	nc_get_var1_float
+	nc_put_var1_double
+	nc_get_var1_double
+	nc_put_vara
+	nc_get_vara
+	nc_put_vara_text
+	nc_get_vara_text
+	nc_put_vara_uchar
+	nc_get_vara_uchar
+	nc_put_vara_schar
+	nc_get_vara_schar
+	nc_put_vara_short
+	nc_get_vara_short
+	nc_put_vara_int
+	nc_get_vara_int
+	nc_put_vara_long
+	nc_get_vara_long
+	nc_put_vara_float
+	nc_get_vara_float
+	nc_put_vara_double
+	nc_get_vara_double
