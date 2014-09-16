@@ -19,7 +19,7 @@ Name "NetCDF4Excel"
 
 VIProductVersion "2.2.0.0"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "NetCDF4Excel"
-VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2008 - 2012 Alexander Bruhns (bruhns@free.fr)"
+VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2008 - 2014 Alexander Bruhns"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "Excel 2007 Add-In for NetcDF"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.2"
 
