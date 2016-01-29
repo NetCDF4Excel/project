@@ -1,7 +1,7 @@
 # Install Script for NetCDF4Excel_2007
 
 # define installer name
-outFile "NetCDF4Excel_3_0_setup.exe"
+outFile "NetCDF4Excel_3_1_setup.exe"
  
 # set ProgramFiles as default install directory
 installDir $PROGRAMFILES\NetCDF4Excel
@@ -17,11 +17,11 @@ Name "NetCDF4Excel"
 ;--------------------------------
 ;Version Information
 
-VIProductVersion "3.0.0.0 "
+VIProductVersion "3.1.0.0 "
 VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "NetCDF4Excel"
-VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2008 - 2015 Alexander Bruhns"
+VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2008 - 2016 Alexander Bruhns"
 VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "Excel 2007 Add-In for NetcDF"
-VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "3.0"
+VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "3.1"
 
 ;--------------------------------
 Page license
